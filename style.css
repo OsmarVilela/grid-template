@@ -1,1 +1,49 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: rgb(201, 195, 195);
+    padding: 0 2%;
+    height: 10vh;
+    align-items: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+/* centralizando a legenda abaixo da foto */
+section figure{ 
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+main aside{
+    /* background-color: blueviolet; */
+   display: flex;
+   align-items: center;
+}
+/* alinhando as  fotos e fazendo quebrar responsivo */
+.gallery{
+    display: grid;
+    justify-content:space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+footer{
+    background-color: rgb(201, 195, 195);
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    justify-items: center;
+}
